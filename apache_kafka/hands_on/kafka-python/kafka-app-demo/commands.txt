@@ -1,0 +1,59 @@
+#
+# This file contains the shell commands for the Kafka.
+#
+
+## Logging into the Kafka Container
+
+        docker exec -it kafka-broker /bin/bash
+
+## Navigate to the Kafka Scripts directory
+
+        cd /opt/bitnami/kafka/bin
+
+## Creating new Topics
+## --zookeeper zookeeper:2181 --> this command is no longer needed in the latest versions of the kafka.
+
+        ./kafka-topics.sh \
+            --bootstrap-server localhost:9092 \
+            --create \
+            --topic kafka.learning.messages \
+            --partitions 2 \
+            --replication-factor 1
+
+## Listing Topics
+
+        ./kafka-topics.sh \
+            --bootstrap-server localhost:9092 \
+            --list
+
+## Getting details about a Topic
+
+        ./kafka-topics.sh \
+            --bootstrap-server localhost:9092 \
+            --describe
+
+
+## Publishing Messages to Topics
+
+        ./kafka-console-producer.sh \
+            --bootstrap-server localhost:29092 \
+            --topic kafka.learning.messages
+
+## Consuming Messages from Topics
+
+        ./kafka-console-consumer.sh \
+            --bootstrap-server localhost:29092 \
+            --topic kafka.learning.messages \
+            --from-beginning
+
+## Deleting Topics
+
+        ./kafka-topics.sh \
+            --bootstrap-server localhost:9092 \
+            --delete \
+            --topic kafka.learning.messages
+
+
+
+
+
