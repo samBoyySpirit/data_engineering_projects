@@ -13,7 +13,7 @@ Spark runs locally as well as in a cluster, on-premise, or in a cloud.
 	* Streaming for real-time data,
 	* MLlib for machine learning, and
 	* GraphX for graph structure data at scale.
-![79d193bf9a98c609a3cc2b5e4c6949b1.png](/images/79d193bf9a98c609a3cc2b5e4c6949b1.png)
+![79d193bf9a98c609a3cc2b5e4c6949b1.png](/apache_spark/images/79d193bf9a98c609a3cc2b5e4c6949b1.png)
 
 ### Spark Core API
 * Task Scheduling
@@ -62,8 +62,8 @@ Why spark is considered over the following:
 		* Spark requires more RAM and hence setting up Spark clusters can be more expensive.
 * **Dask**
 	* library for parallel computing in Python.
-	* ![c0be0af7403af05429b689566a60b1d5.png](/images/c0be0af7403af05429b689566a60b1d5.png)
-	* ![58ec2dd250dd931ee9a2974130fa1c3b.png](/images/58ec2dd250dd931ee9a2974130fa1c3b.png)
+	* ![c0be0af7403af05429b689566a60b1d5.png](/apache_spark/images/c0be0af7403af05429b689566a60b1d5.png)
+	* ![58ec2dd250dd931ee9a2974130fa1c3b.png](/apache_spark/images/58ec2dd250dd931ee9a2974130fa1c3b.png)
 
 ***
 ## 1.3 Spark origins and Databricks.
@@ -93,7 +93,7 @@ They also offers various connectors to Business Intelligence tools.
 	* is a task manager or a resource manager.
 	* when you submit Spark applications to cluster Managers, they'll grant resources to your applications so that the work can be completed.
 
-![f4a2327f1423c7ce020f2ae0a1c9f38d.png](/images/f4a2327f1423c7ce020f2ae0a1c9f38d.png)
+![f4a2327f1423c7ce020f2ae0a1c9f38d.png](/apache_spark/images/f4a2327f1423c7ce020f2ae0a1c9f38d.png)
 
 ### Cluster Manager types:
 * Standalone option,
@@ -144,7 +144,7 @@ tells spark to compute the results of these transformations, and there are three
 
 ## 2.1 The DataFrame API.
 
-![feb0b735c78f865c17d67919f0858419.png](/images/feb0b735c78f865c17d67919f0858419.png)
+![feb0b735c78f865c17d67919f0858419.png](/apache_spark/images/feb0b735c78f865c17d67919f0858419.png)
 
 * In Spark, a DataFrame is a distributed collection of objects of type row. Like a table.
 * however, a Spark DataFrame could sit across hundreds of computers.
@@ -156,74 +156,74 @@ tells spark to compute the results of these transformations, and there are three
 ***
 ## 2.2 Working with DataFrames.
 
-![c9045e177daa8544a83eedf63cc7bd54.png](/images/c9045e177daa8544a83eedf63cc7bd54.png)
+![c9045e177daa8544a83eedf63cc7bd54.png](/apache_spark/images/c9045e177daa8544a83eedf63cc7bd54.png)
 
-![bbde7da824e23553137b3d0ab363ee84.png](/images/bbde7da824e23553137b3d0ab363ee84.png)
+![bbde7da824e23553137b3d0ab363ee84.png](/apache_spark/images/bbde7da824e23553137b3d0ab363ee84.png)
 
-![a966c702eb2c24177775bc8314e788a2.png](/images/a966c702eb2c24177775bc8314e788a2.png)
+![a966c702eb2c24177775bc8314e788a2.png](/apache_spark/images/a966c702eb2c24177775bc8314e788a2.png)
 
 ***
 ## 2.3 Schemas.
 
 A schema defines the column names and what data types they are.
-![c90f4c20028db089d8ecb2da4f4b9d19.png](/images/c90f4c20028db089d8ecb2da4f4b9d19.png)
+![c90f4c20028db089d8ecb2da4f4b9d19.png](/apache_spark/images/c90f4c20028db089d8ecb2da4f4b9d19.png)
 
 ### Schema:
 * spark can infer the schema by default, although,
 	* explicitly defining the schema in Spark is recommended.
 * import the different data types from pyspark.sql.types
-* ![0d6cce3f3a2b86ceb038fbfd6a136098.png](/images/0d6cce3f3a2b86ceb038fbfd6a136098.png)
+* ![0d6cce3f3a2b86ceb038fbfd6a136098.png](/apache_spark/images/0d6cce3f3a2b86ceb038fbfd6a136098.png)
 
 ***
 ## 2.4 Working with columns.
 
-![9b4e80861fbd7a229d04e71e1552acd8.png](/images/9b4e80861fbd7a229d04e71e1552acd8.png)
+![9b4e80861fbd7a229d04e71e1552acd8.png](/apache_spark/images/9b4e80861fbd7a229d04e71e1552acd8.png)
 
-![df3eced38116afe4f7c8b58be73556e0.png](/images/df3eced38116afe4f7c8b58be73556e0.png)
+![df3eced38116afe4f7c8b58be73556e0.png](/apache_spark/images/df3eced38116afe4f7c8b58be73556e0.png)
 
-![76c7c786762b63ea22fab121d7fab56f.png](/images/76c7c786762b63ea22fab121d7fab56f.png)
+![76c7c786762b63ea22fab121d7fab56f.png](/apache_spark/images/76c7c786762b63ea22fab121d7fab56f.png)
 
-![96b0af6eae871e10754b3a4b5e31ed98.png](/images/96b0af6eae871e10754b3a4b5e31ed98.png)
+![96b0af6eae871e10754b3a4b5e31ed98.png](/apache_spark/images/96b0af6eae871e10754b3a4b5e31ed98.png)
 
-![7d84553f865a4e49852d5c16796dc34b.png](/images/7d84553f865a4e49852d5c16796dc34b.png)
+![7d84553f865a4e49852d5c16796dc34b.png](/apache_spark/images/7d84553f865a4e49852d5c16796dc34b.png)
 
-![2f63053496b1a59df4219a2bfaceaed9.png](/images/2f63053496b1a59df4219a2bfaceaed9.png)
+![2f63053496b1a59df4219a2bfaceaed9.png](/apache_spark/images/2f63053496b1a59df4219a2bfaceaed9.png)
 
-![f70925b92453422969097b56c2632ba5.png](/images/f70925b92453422969097b56c2632ba5.png)
+![f70925b92453422969097b56c2632ba5.png](/apache_spark/images/f70925b92453422969097b56c2632ba5.png)
 
 ***
 ## 2.5 Working with rows.
 
-![b138d9f2a8a5dbf46ac9186a8aaf6187.png](/images/b138d9f2a8a5dbf46ac9186a8aaf6187.png)
+![b138d9f2a8a5dbf46ac9186a8aaf6187.png](/apache_spark/images/b138d9f2a8a5dbf46ac9186a8aaf6187.png)
 
-![c558eea7add0211394914a2132055eff.png](/images/c558eea7add0211394914a2132055eff.png)
+![c558eea7add0211394914a2132055eff.png](/apache_spark/images/c558eea7add0211394914a2132055eff.png)
 
-![7f8af3b255169fc29ca53ac8ac9d0e96.png](/images/7f8af3b255169fc29ca53ac8ac9d0e96.png)
+![7f8af3b255169fc29ca53ac8ac9d0e96.png](/apache_spark/images/7f8af3b255169fc29ca53ac8ac9d0e96.png)
 
-![d7838f4ceeb678fae9a25815783ff48d.png](/images/d7838f4ceeb678fae9a25815783ff48d.png)
+![d7838f4ceeb678fae9a25815783ff48d.png](/apache_spark/images/d7838f4ceeb678fae9a25815783ff48d.png)
 
 ***
 # 3) Functions.
 
 ## 3.1 Built-in functions.
 
-![e8239b097278455dadcb69bf85249974.png](/images/e8239b097278455dadcb69bf85249974.png)
+![e8239b097278455dadcb69bf85249974.png](/apache_spark/images/e8239b097278455dadcb69bf85249974.png)
 
-![82eabfef3cae9df715c6d1b3fbd7ee17.png](/images/82eabfef3cae9df715c6d1b3fbd7ee17.png)
+![82eabfef3cae9df715c6d1b3fbd7ee17.png](/apache_spark/images/82eabfef3cae9df715c6d1b3fbd7ee17.png)
 
 ***
 ## 3.2 User-defined functions.
 
-![b478746fd8765af50a9156992540c4cd.png](/images/b478746fd8765af50a9156992540c4cd.png)
+![b478746fd8765af50a9156992540c4cd.png](/apache_spark/images/b478746fd8765af50a9156992540c4cd.png)
 
 when creating user defined functions in python , there is a penalty in computation. so it is preferred to create functions in scala or java.
 
 ***
 ## 3.3 Working with Joins.
 
-![9aa931c759aa7e39fbd2d55cc7901405.png](/images/9aa931c759aa7e39fbd2d55cc7901405.png)
+![9aa931c759aa7e39fbd2d55cc7901405.png](/apache_spark/images/9aa931c759aa7e39fbd2d55cc7901405.png)
 
-![1838cab9de49e7d1c184942eba57fa49.png](/images/1838cab9de49e7d1c184942eba57fa49.png)
+![1838cab9de49e7d1c184942eba57fa49.png](/apache_spark/images/1838cab9de49e7d1c184942eba57fa49.png)
 
 ***
 # 4) Resilient Distributed Datasets(RDDs).
@@ -233,18 +233,18 @@ when creating user defined functions in python , there is a penalty in computati
 An RDD is an *immutable* partitioned collection of records that can be worked on in parallel.
 
 In RDD, the records are just python, scala or java objects.
-![4adb31d12652c837fd2829dc7bce60a4.png](/images/4adb31d12652c837fd2829dc7bce60a4.png)
+![4adb31d12652c837fd2829dc7bce60a4.png](/apache_spark/images/4adb31d12652c837fd2829dc7bce60a4.png)
 
 However, the challenges with the object types is:
-![24d983b9ca8f39373747d44676ee4d37.png](/images/24d983b9ca8f39373747d44676ee4d37.png)
+![24d983b9ca8f39373747d44676ee4d37.png](/apache_spark/images/24d983b9ca8f39373747d44676ee4d37.png)
 
-![4b9e8f324e32a7964cc2feecb2364b66.png](/images/4b9e8f324e32a7964cc2feecb2364b66.png)
+![4b9e8f324e32a7964cc2feecb2364b66.png](/apache_spark/images/4b9e8f324e32a7964cc2feecb2364b66.png)
 
-![5f992c720eab677325532fd8f7f5716c.png](/images/5f992c720eab677325532fd8f7f5716c.png)
+![5f992c720eab677325532fd8f7f5716c.png](/apache_spark/images/5f992c720eab677325532fd8f7f5716c.png)
 
 RDDs are powerful but lack optimizations. Don't have the built in functions too.
 
-![f506678181589f9fddbd61cfb039a3c8.png](/images/f506678181589f9fddbd61cfb039a3c8.png)
+![f506678181589f9fddbd61cfb039a3c8.png](/apache_spark/images/f506678181589f9fddbd61cfb039a3c8.png)
 
 ***
 Source: <https://www.youtube.com/watch?v=YvTzvZh3yTE&list=PL7_h0bRfL52qWoCcS18nXcT1s-5rSa1yp&index=2>
@@ -253,35 +253,35 @@ Master Databricks and Apache Spark by Bryan Cafferky.
 ***
 # Lesson 1.
 
-![252f3fe284e5d4d5bd5f100bbe0a020c.png](/images/252f3fe284e5d4d5bd5f100bbe0a020c.png)
+![252f3fe284e5d4d5bd5f100bbe0a020c.png](/apache_spark/images/252f3fe284e5d4d5bd5f100bbe0a020c.png)
 
 Spark isn't a storage engine. It is a platform that enables parallel processing/distributed processing.
 
-![dae516b5030538cdb4ad3cb0ae9be659.png](/images/dae516b5030538cdb4ad3cb0ae9be659.png)
+![dae516b5030538cdb4ad3cb0ae9be659.png](/apache_spark/images/dae516b5030538cdb4ad3cb0ae9be659.png)
 
 # Lesson 2.
 
 ## HDInsights.
 
-![3df017f874699aa0efc7b7f421e6669d.png](/images/3df017f874699aa0efc7b7f421e6669d.png)
+![3df017f874699aa0efc7b7f421e6669d.png](/apache_spark/images/3df017f874699aa0efc7b7f421e6669d.png)
 
 # Lesson 3.
 
 ## The Data Science Process.
 
-![c31d905949a0f307a30fcb9bc02b2f48.png](/images/c31d905949a0f307a30fcb9bc02b2f48.png)
+![c31d905949a0f307a30fcb9bc02b2f48.png](/apache_spark/images/c31d905949a0f307a30fcb9bc02b2f48.png)
 
 # Lesson 4.
 
 ## Spark SQL:
-![4e65171c6b9989f05a04889df2a9f48a.png](/images/4e65171c6b9989f05a04889df2a9f48a.png)
+![4e65171c6b9989f05a04889df2a9f48a.png](/apache_spark/images/4e65171c6b9989f05a04889df2a9f48a.png)
 
-![d66edb7a63024fecea26582ea3cee2e8.png](/images/d66edb7a63024fecea26582ea3cee2e8.png)
+![d66edb7a63024fecea26582ea3cee2e8.png](/apache_spark/images/d66edb7a63024fecea26582ea3cee2e8.png)
 
-![feeb8539c5778abae78b90c8943e6e55.png](/images/feeb8539c5778abae78b90c8943e6e55.png)
+![feeb8539c5778abae78b90c8943e6e55.png](/apache_spark/images/feeb8539c5778abae78b90c8943e6e55.png)
 
 ## Delta Lake
-![1e138ffbae6a0120ada7f01079073290.png](/images/1e138ffbae6a0120ada7f01079073290.png)
+![1e138ffbae6a0120ada7f01079073290.png](/apache_spark/images/1e138ffbae6a0120ada7f01079073290.png)
 
 # Lesson 5.
 
